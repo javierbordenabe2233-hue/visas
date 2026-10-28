@@ -1,0 +1,10 @@
+APP DE VISAS - PASOS PARA PUBLICAR
+
+1) Subir TODOS los archivos de esta carpeta (index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png) a la raiz de un repositorio de GitHub. No subir el .zip, subir los archivos sueltos.
+2) Settings > Pages > Deploy from a branch > main > / (root). El repo debe ser publico en cuentas gratuitas.
+3) Abrir https://TUUSUARIO.github.io/NOMBRE-DEL-REPO/ desde Chrome.
+4) Instalar: Android = menu (3 puntos) > "Instalar app". iPhone (Safari) = Compartir > "Agregar a pantalla de inicio". PC = icono de instalar en la barra de direcciones.
+
+Alternativa sin GitHub: arrastrar la carpeta a https://app.netlify.com/drop
+
+Para actualizar datos: reemplazar index.html en el repo y subir cambiando V="visas-v1" por "visas-v2" en sw.js, para que los dispositivos tomen la version nueva.
